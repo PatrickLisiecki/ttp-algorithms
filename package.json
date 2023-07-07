@@ -1,0 +1,15 @@
+{
+    "name": "ttp-algorithms",
+    "version": "1.0.0",
+    "description": "",
+    "main": "missingNumber.js",
+    "scripts": {
+        "test": "jest --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "jest": "^29.6.1"
+    }
+}
