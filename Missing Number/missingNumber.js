@@ -5,7 +5,7 @@
     Input: 
         integer array containing n distinct numbers in the range of [0, n] where n = input size
     Output: 
-        the single missing number from the array
+        integer that is missing in the array
 
     Approach:
         A cyclic sort works on arrays where there are no duplicates and the numbers are continuous.
@@ -47,9 +47,5 @@ function missingNumber(arr) {
     // If every number matches its index then the missing number would be the next number
     return arr.length;
 }
-
-// arr = [9, 6, 4, 2, 3, 5, 7, 0, 1];
-// console.log(missingNumber(arr));
-// console.log(arr);
 
 module.exports = missingNumber;
